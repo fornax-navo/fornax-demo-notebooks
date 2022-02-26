@@ -3,10 +3,7 @@
 from astropy.nddata import Cutout2D
 import astropy.io.fits as fits
 import sys
-
-
 from reproject import reproject_interp
-
 
 
 def prepare_PRF(prf_fitsname, ra_0, dec_0, rotate_angle):
