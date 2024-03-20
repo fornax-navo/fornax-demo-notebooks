@@ -1,0 +1,7 @@
+At first, I tried to familiarize with all the structures and environment of Dask and I tried to search for more information about parallelization of functions with big amounts of data. Then, after understanding the assignment and reviewing the provided resources, I directly created a function needed to execute the functions in parallel.
+
+As my solution, I implemented a function which adds to the new cluster client the functions to execute, with the number of samples introduced to the function and executes them. Then it gathers all the results and concatenates them into a single Pandas DataFrame. As a result, the serial execution takes 14 seconds approx for 5 samples and 252 seconds for 100 samples, while the parallel one takes 10 seconds and 201 seconds approx. This shows the time reduction thanks to this parallelization although the proportion is not as big as parallelizing 4 executions would seem.
+
+With more time, I would evaluate each of the functions that are needed to be executed and see how much time each one consumes, because if one of them takes considerably more time than the others, the total time of parallel execution would be determined by this function, and maybe looking into the archive.py functions, another type of parallelization could be done to execute the slowest function itself and save execution time.
+
+Lucas Martin Garcia.
