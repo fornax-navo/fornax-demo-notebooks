@@ -1,0 +1,5 @@
+In my experimentation with varying sample sizes, I've observed fluctuations in performance between serial and parallel execution. While Dask generally exhibits better average performance, there are instances where serial execution outperforms Dask with a margin of few seconds. This variability could be influenced by factors such as system load, resource availability. To address these challenges, I plan to explore several avenues to refine my Dask implementation.
+
+1. Cloud platforms provide flexible and scalable resources, reducing memory-related issues compared to fixed hardware configurations in local clusters. Additionally, they offer managed services and tools for simplified resource allocation and optimization. Leveraging these capabilities alongside Dask cloud services, such as Dask Cloud Provider, allows for dynamic resource management and scalability, enhancing performance and efficiency in distributed computing environments.
+
+2. Given more time, I would also consider leveraging Dask delayed to gain finer control over task execution. By using Dask delayed, I could optimize task scheduling and execution, potentially improving performance further.
