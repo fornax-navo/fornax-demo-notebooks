@@ -8,6 +8,7 @@ import pyarrow.parquet
 import pyvo
 import tqdm
 
+import helpers.scale_up
 from data_structures import MultiIndexDFObject
 
 
@@ -198,7 +199,7 @@ def load_lightcurves(locations_df, nworkers=6, chunksize=100):
         chunksize = len(location_grps) // nworkers + 1
 
     # start a pool of background processes to load data in parallel
-    with mp.Pool(nworkers) as pool:
+    with mp.Pool(nworkers, initializer=helpers.scale_up._init_worker) as pool:
         lightcurves = []
         # use imap because it's lazier than map and can reduce memory usage for long iterables
         # use unordered because we don't care about the order in which results are returned

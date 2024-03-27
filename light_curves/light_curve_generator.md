@@ -336,20 +336,25 @@ print('total time for serial archive calls is ', end_serial - start_serial, 's')
 
 ## 4. Parallel processing the archive calls
 
+This section shows how to increase the speed of the multi-archive search by running the calls in parallel using python's `multiprocessing` library.
+This will speed up searches of light curves for numbers of targets ranging from a few tens to a few thousand.
+For larger sample sizes, the option to use ZTF's internal parallelization, and/or improved monitoring options, please see the related tutorial notebook scale_up.md in the same folder as this one.
+Running this on very large samples (hundreds of thousands) may fail because of the way the platform is setup to cull users which appear to be inactive.
+
 ```{code-cell} ipython3
 # number of workers to use in the parallel processing pool
 # this should equal the total number of archives called
 n_workers = 8
-```
 
-```{code-cell} ipython3
-# we'll use the default keyword arguments for all archives except ZTF
-# we must turn off the ZTF internal parallelization because it is incompatible with the pool launched below
-ztf_kwargs = {"nworkers": None}
-
-# note that the ZTF call is relatively slow compared to other archives.
-# if you want to query for a large number of objects, it will be faster to call ZTF individually
-# (code above) and use the internal parallelization. try 8-12 workers.
+# keyword arguments for the archive calls
+heasarc_kwargs = dict(catalog_error_radii={"FERMIGTRIG": "1.0", "SAXGRBMGRB": "3.0"})
+ztf_kwargs = dict(nworkers=None)  # the internal parallelization is incompatible with Pool
+wise_kwargs = dict(radius=1.0, bandlist=['W1', 'W2'])
+panstarrs_kwargs = dict(radius=1.0/3600.0)
+tess_kepler_kwargs = dict(radius=1.0)
+hcv_kwargs = dict(radius=1.0/3600.0)
+gaia_kwargs = dict(search_radius=1/3600, verbose=0)
+icecube_kwargs = dict(icecube_select_topN=3)
 ```
 
 ```{code-cell} ipython3
@@ -361,14 +366,14 @@ callback = parallel_df_lc.append  # will be called once on the result returned b
 with mp.Pool(processes=n_workers) as pool:
 
     # start the processes that call the archives
-    pool.apply_async(gaia_get_lightcurves, args=(sample_table,), callback=callback)
-    pool.apply_async(heasarc_get_lightcurves, args=(sample_table,), callback=callback)
-    pool.apply_async(hcv_get_lightcurves, args=(sample_table,), callback=callback)
-    pool.apply_async(icecube_get_lightcurves, args=(sample_table,), callback=callback)
-    pool.apply_async(panstarrs_get_lightcurves, args=(sample_table,), callback=callback)
-    pool.apply_async(tess_kepler_get_lightcurves, args=(sample_table,), callback=callback)
-    pool.apply_async(wise_get_lightcurves, args=(sample_table,), callback=callback)
+    pool.apply_async(heasarc_get_lightcurves, args=(sample_table,), kwds=heasarc_kwargs, callback=callback)
     pool.apply_async(ztf_get_lightcurves, args=(sample_table,), kwds=ztf_kwargs, callback=callback)
+    pool.apply_async(wise_get_lightcurves, args=(sample_table,), kwds=wise_kwargs, callback=callback)
+    pool.apply_async(panstarrs_get_lightcurves, args=(sample_table,), kwds=panstarrs_kwargs, callback=callback)
+    pool.apply_async(tess_kepler_get_lightcurves, args=(sample_table,), kwds=tess_kepler_kwargs, callback=callback)
+    pool.apply_async(hcv_get_lightcurves, args=(sample_table,), kwds=hcv_kwargs, callback=callback)
+    pool.apply_async(gaia_get_lightcurves, args=(sample_table,), kwds=gaia_kwargs, callback=callback)
+    pool.apply_async(icecube_get_lightcurves, args=(sample_table,), kwds=icecube_kwargs, callback=callback)
 
     pool.close()  # signal that no more jobs will be submitted to the pool
     pool.join()  # wait for all jobs to complete, including the callback

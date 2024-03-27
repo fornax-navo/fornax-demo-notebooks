@@ -1,0 +1,33 @@
+*********************************************************************
+**                          Run starting.                          **
+run_id=SDSS-500k
+base_dir=/home/jovyan/raen/fornax-demo-notebooks/light_curves/output/lightcurves-SDSS-500k
+logs_dir=/home/jovyan/raen/fornax-demo-notebooks/light_curves/output/lightcurves-SDSS-500k/logs
+parquet_dir=/home/jovyan/raen/fornax-demo-notebooks/light_curves/output/lightcurves-SDSS-500k/lightcurves.parquet
+**                                                                 **
+
+Build sample is starting. logfile=get_sample.log
+Build sample is done. Printing the log for convenience:
+
+-- /home/jovyan/raen/fornax-demo-notebooks/light_curves/output/lightcurves-SDSS-500k/logs/get_sample.log:
+2024/03/01 20:31:27 UTC | [pid=3289] Starting build=sample
+Building object sample from: ['sdss']
+WARNING: OverflowError converting to IntType in column specObjID, reverting to String. [astropy.io.ascii.fastbasic]
+SDSS Quasar: 500000
+Object sample size, after duplicates removal: 498877
+Object sample saved to: /home/jovyan/raen/fornax-demo-notebooks/light_curves/output/lightcurves-SDSS-500k/object_sample.ecsv
+2024/03/01 20:36:59 UTC
+--
+
+Archive calls are starting.
+
+[pid=3968] Gaia started. logfile=gaia.log
+[pid=3972] HEASARC started. logfile=heasarc.log
+[pid=3976] IceCube started. logfile=icecube.log
+[pid=3980] WISE started. logfile=wise.log
+[pid=3984] ZTF started. logfile=ztf.log
+
+**                                                                  **
+**                       Main process exiting.                      **
+**           Jobs may continue running in the background.           **
+**********************************************************************

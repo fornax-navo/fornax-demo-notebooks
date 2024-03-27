@@ -1,0 +1,6 @@
+2024/03/01 20:37:00 UTC | [pid=3968] Starting build=lightcurves, archive=gaia
+INFO: Query finished. [astroquery.utils.tap.core]
+Light curves saved to:
+	parquet_dir=/home/jovyan/raen/fornax-demo-notebooks/light_curves/output/lightcurves-SDSS-500k/lightcurves.parquet
+	file=archive=gaia/part0.snappy.parquet
+2024/03/01 21:07:38 UTC

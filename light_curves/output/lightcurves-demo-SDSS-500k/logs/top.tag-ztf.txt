@@ -1,0 +1,1730 @@
+----
+2024/02/25 02:03:20 UTC
+top - 02:03:20 up  1:14,  0 users,  load average: 0.05, 0.14, 0.23
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    466.4 free,      1.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    491.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1378 jovyan    20   0    0.2g   0.1g   0.0g S   0.0   0.0   0:00.42 ipython
+----
+2024/02/25 02:05:40 UTC
+top - 02:05:40 up  1:16,  0 users,  load average: 0.19, 0.15, 0.22
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    466.4 free,      1.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    491.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0    0.2g   0.1g   0.0g S   0.0   0.0   0:00.32 ipython
+----read_parquet
+2024/02/25 02:05:50 UTC
+top - 02:05:50 up  1:16,  0 users,  load average: 0.80, 0.28, 0.26
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    455.6 free,     12.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    480.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   70.3g  10.9g   0.1g S  93.3   2.2   0:37.96 ipython
+----indexes_to_keep
+2024/02/25 02:06:00 UTC
+top - 02:06:00 up  1:16,  0 users,  load average: 0.91, 0.32, 0.27
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R  93.3   1.8   0:48.56 ipython
+----
+2024/02/25 02:06:10 UTC
+top - 02:06:10 up  1:17,  0 users,  load average: 0.93, 0.34, 0.28
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   0:58.72 ipython
+----
+2024/02/25 02:06:20 UTC
+top - 02:06:20 up  1:17,  0 users,  load average: 0.94, 0.37, 0.29
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 106.7   1.8   1:08.88 ipython
+----
+2024/02/25 02:06:30 UTC
+top - 02:06:31 up  1:17,  0 users,  load average: 1.03, 0.40, 0.30
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.0 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   1:19.03 ipython
+----
+2024/02/25 02:06:41 UTC
+top - 02:06:41 up  1:17,  0 users,  load average: 1.02, 0.42, 0.31
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   1:29.18 ipython
+----
+2024/02/25 02:06:51 UTC
+top - 02:06:51 up  1:17,  0 users,  load average: 1.02, 0.44, 0.32
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   1:39.34 ipython
+----
+2024/02/25 02:07:01 UTC
+top - 02:07:01 up  1:17,  0 users,  load average: 1.02, 0.46, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   1:49.49 ipython
+----
+2024/02/25 02:07:11 UTC
+top - 02:07:11 up  1:18,  0 users,  load average: 1.01, 0.48, 0.33
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   1:59.65 ipython
+----
+2024/02/25 02:07:21 UTC
+top - 02:07:21 up  1:18,  0 users,  load average: 1.01, 0.50, 0.34
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.0 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   2:09.80 ipython
+----
+2024/02/25 02:07:31 UTC
+top - 02:07:32 up  1:18,  0 users,  load average: 1.01, 0.51, 0.35
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 106.7   1.8   2:19.96 ipython
+----
+2024/02/25 02:07:42 UTC
+top - 02:07:42 up  1:18,  0 users,  load average: 1.01, 0.53, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   2:30.11 ipython
+----
+2024/02/25 02:07:52 UTC
+top - 02:07:52 up  1:18,  0 users,  load average: 1.01, 0.55, 0.36
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   2:40.26 ipython
+----
+2024/02/25 02:08:02 UTC
+top - 02:08:02 up  1:18,  0 users,  load average: 1.00, 0.56, 0.37
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R  93.8   1.8   2:50.42 ipython
+----
+2024/02/25 02:08:12 UTC
+top - 02:08:12 up  1:19,  0 users,  load average: 1.00, 0.58, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   3:00.57 ipython
+----
+2024/02/25 02:08:22 UTC
+top - 02:08:22 up  1:19,  0 users,  load average: 1.00, 0.59, 0.38
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   3:10.73 ipython
+----
+2024/02/25 02:08:32 UTC
+top - 02:08:32 up  1:19,  0 users,  load average: 1.00, 0.61, 0.39
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 106.7   1.8   3:20.89 ipython
+----
+2024/02/25 02:08:42 UTC
+top - 02:08:43 up  1:19,  0 users,  load average: 1.00, 0.63, 0.40
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   3:31.04 ipython
+----
+2024/02/25 02:08:53 UTC
+top - 02:08:53 up  1:19,  0 users,  load average: 1.00, 0.64, 0.41
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  0.0 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   3:41.19 ipython
+----
+2024/02/25 02:09:03 UTC
+top - 02:09:03 up  1:19,  0 users,  load average: 1.00, 0.65, 0.42
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   3:51.35 ipython
+----
+2024/02/25 02:09:13 UTC
+top - 02:09:13 up  1:20,  0 users,  load average: 1.00, 0.66, 0.42
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   4:01.50 ipython
+----
+2024/02/25 02:09:23 UTC
+top - 02:09:23 up  1:20,  0 users,  load average: 1.00, 0.67, 0.43
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    457.7 free,     10.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    482.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   78.9g   8.8g   0.1g R 100.0   1.8   4:11.66 ipython
+----explode
+2024/02/25 02:09:32 UTC
+top - 02:09:32 up  1:20,  0 users,  load average: 1.00, 0.68, 0.43
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    454.7 free,     13.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    479.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   82.5g  11.8g   0.1g R 100.0   2.4   4:20.44 ipython
+----
+2024/02/25 02:09:34 UTC
+top - 02:09:34 up  1:20,  0 users,  load average: 1.08, 0.70, 0.44
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    452.8 free,     15.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    477.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   84.3g  13.7g   0.1g R 100.0   2.8   4:22.59 ipython
+----
+2024/02/25 02:09:36 UTC
+top - 02:09:36 up  1:20,  0 users,  load average: 1.08, 0.70, 0.44
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    451.1 free,     17.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    475.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   86.1g  15.4g   0.1g R 106.7   3.1   4:24.75 ipython
+----
+2024/02/25 02:09:38 UTC
+top - 02:09:38 up  1:20,  0 users,  load average: 1.07, 0.71, 0.44
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    449.2 free,     19.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    473.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   88.0g  17.2g   0.1g R 106.7   3.5   4:26.91 ipython
+----
+2024/02/25 02:09:40 UTC
+top - 02:09:41 up  1:20,  0 users,  load average: 1.07, 0.71, 0.44
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    447.3 free,     20.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    472.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   89.9g  19.1g   0.1g R 100.0   3.9   4:29.06 ipython
+----
+2024/02/25 02:09:43 UTC
+top - 02:09:43 up  1:20,  0 users,  load average: 1.07, 0.71, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.4 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    443.1 free,     25.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    467.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   95.5g  23.3g   0.1g R 100.0   4.7   4:31.21 ipython
+----
+2024/02/25 02:09:45 UTC
+top - 02:09:45 up  1:20,  0 users,  load average: 1.07, 0.71, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    440.6 free,     27.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    465.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   96.7g  25.9g   0.1g R 100.0   5.2   4:33.37 ipython
+----
+2024/02/25 02:09:47 UTC
+top - 02:09:47 up  1:20,  0 users,  load average: 1.07, 0.71, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    438.7 free,     29.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    463.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0   98.6g  27.8g   0.1g R 100.0   5.6   4:35.52 ipython
+----
+2024/02/25 02:09:49 UTC
+top - 02:09:49 up  1:20,  0 users,  load average: 1.06, 0.72, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    437.0 free,     31.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    461.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  100.3g  29.4g   0.1g R 106.7   5.9   4:37.68 ipython
+----
+2024/02/25 02:09:51 UTC
+top - 02:09:51 up  1:20,  0 users,  load average: 1.06, 0.72, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    435.1 free,     33.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    459.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  102.2g  31.3g   0.1g R 100.0   6.3   4:39.83 ipython
+----
+2024/02/25 02:09:53 UTC
+top - 02:09:54 up  1:20,  0 users,  load average: 1.06, 0.72, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    433.2 free,     35.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    457.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  104.1g  33.2g   0.1g R 100.0   6.7   4:41.98 ipython
+----
+2024/02/25 02:09:56 UTC
+top - 02:09:56 up  1:20,  0 users,  load average: 1.06, 0.72, 0.45
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    428.6 free,     39.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  109.4g  37.8g   0.1g R 100.0   7.6   4:44.14 ipython
+----
+2024/02/25 02:09:58 UTC
+top - 02:09:58 up  1:20,  0 users,  load average: 1.05, 0.73, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    426.4 free,     41.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    451.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  110.9g  40.0g   0.1g R  93.8   8.1   4:46.29 ipython
+----
+2024/02/25 02:10:00 UTC
+top - 02:10:00 up  1:20,  0 users,  load average: 1.05, 0.73, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    424.5 free,     43.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    449.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  112.8g  41.9g   0.1g R 100.0   8.4   4:48.45 ipython
+----
+2024/02/25 02:10:02 UTC
+top - 02:10:02 up  1:20,  0 users,  load average: 1.05, 0.73, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    422.9 free,     45.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    447.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  114.5g  43.5g   0.1g R 106.7   8.8   4:50.61 ipython
+----
+2024/02/25 02:10:04 UTC
+top - 02:10:04 up  1:20,  0 users,  load average: 1.05, 0.73, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    421.0 free,     47.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    445.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  116.5g  45.4g   0.1g R 100.0   9.2   4:52.76 ipython
+----
+2024/02/25 02:10:06 UTC
+top - 02:10:06 up  1:20,  0 users,  load average: 1.05, 0.73, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    419.0 free,     49.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  118.4g  47.4g   0.1g R 100.0   9.5   4:54.91 ipython
+----
+2024/02/25 02:10:08 UTC
+top - 02:10:09 up  1:21,  0 users,  load average: 1.04, 0.74, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    414.1 free,     54.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    438.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  123.4g  52.3g   0.1g R 106.7  10.5   4:57.07 ipython
+----
+2024/02/25 02:10:11 UTC
+top - 02:10:11 up  1:21,  0 users,  load average: 1.04, 0.74, 0.46
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    412.3 free,     56.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    437.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  125.2g  54.1g   0.1g R  93.3  10.9   4:59.22 ipython
+----
+2024/02/25 02:10:13 UTC
+top - 02:10:13 up  1:21,  0 users,  load average: 1.04, 0.74, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    410.4 free,     57.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    435.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  127.1g  55.9g   0.1g R 100.0  11.3   5:01.38 ipython
+----
+2024/02/25 02:10:15 UTC
+top - 02:10:15 up  1:21,  0 users,  load average: 1.04, 0.74, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.7 free,     59.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.8g  57.7g   0.1g R 100.0  11.6   5:03.53 ipython
+----
+2024/02/25 02:10:17 UTC
+top - 02:10:17 up  1:21,  0 users,  load average: 1.04, 0.74, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    406.8 free,     61.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    431.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  130.8g  59.6g   0.1g R 100.0  12.0   5:05.68 ipython
+----
+2024/02/25 02:10:19 UTC
+top - 02:10:19 up  1:21,  0 users,  load average: 1.04, 0.75, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    404.7 free,     63.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    429.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  134.9g  61.7g   0.1g R 100.0  12.4   5:07.84 ipython
+----
+2024/02/25 02:10:21 UTC
+top - 02:10:22 up  1:21,  0 users,  load average: 1.04, 0.75, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    402.5 free,     65.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    427.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  135.2g  63.8g   0.1g R 100.0  12.9   5:10.00 ipython
+----
+2024/02/25 02:10:24 UTC
+top - 02:10:24 up  1:21,  0 users,  load average: 1.03, 0.75, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    399.9 free,     68.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    424.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  66.4g   0.1g R 100.0  13.4   5:12.15 ipython
+----
+2024/02/25 02:10:26 UTC
+top - 02:10:26 up  1:21,  0 users,  load average: 1.03, 0.75, 0.47
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    395.9 free,     72.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  70.5g   0.1g R 100.0  14.2   5:14.31 ipython
+----
+2024/02/25 02:10:28 UTC
+top - 02:10:28 up  1:21,  0 users,  load average: 1.03, 0.75, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.5 free,     74.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  72.9g   0.1g R 100.0  14.7   5:16.49 ipython
+----
+2024/02/25 02:10:30 UTC
+top - 02:10:30 up  1:21,  0 users,  load average: 1.03, 0.75, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.4 free,     74.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  72.9g   0.1g R 100.0  14.7   5:18.65 ipython
+----
+2024/02/25 02:10:32 UTC
+top - 02:10:32 up  1:21,  0 users,  load average: 1.03, 0.75, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.7 free,     74.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  72.6g   0.1g R 100.0  14.6   5:20.80 ipython
+----
+2024/02/25 02:10:34 UTC
+top - 02:10:35 up  1:21,  0 users,  load average: 1.03, 0.76, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.5 sy,  0.0 ni, 98.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    407.2 free,     61.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    431.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  130.4g  59.2g   0.1g R 100.0  11.9   5:22.95 ipython
+----
+2024/02/25 02:10:37 UTC
+top - 02:10:37 up  1:21,  0 users,  load average: 1.03, 0.76, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.5 free,     58.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.1g  56.9g   0.1g R 100.0  11.5   5:25.11 ipython
+----
+2024/02/25 02:10:39 UTC
+top - 02:10:39 up  1:21,  0 users,  load average: 1.02, 0.76, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.3 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    404.4 free,     63.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    429.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  135.0g  61.9g   0.1g R 100.0  12.5   5:27.26 ipython
+----
+2024/02/25 02:10:41 UTC
+top - 02:10:41 up  1:21,  0 users,  load average: 1.02, 0.76, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    397.5 free,     70.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    422.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  68.8g   0.1g R 100.0  13.9   5:29.42 ipython
+----
+2024/02/25 02:10:43 UTC
+top - 02:10:43 up  1:21,  0 users,  load average: 1.02, 0.77, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.5 free,     74.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  72.8g   0.1g R 100.0  14.7   5:31.57 ipython
+----
+2024/02/25 02:10:45 UTC
+top - 02:10:45 up  1:21,  0 users,  load average: 1.02, 0.77, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.4 free,     74.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  72.9g   0.1g R 100.0  14.7   5:33.73 ipython
+----
+2024/02/25 02:10:47 UTC
+top - 02:10:47 up  1:21,  0 users,  load average: 1.02, 0.77, 0.48
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.7 free,     79.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.3g  77.6g   0.1g R 100.0  15.6   5:35.88 ipython
+----
+2024/02/25 02:10:49 UTC
+top - 02:10:50 up  1:21,  0 users,  load average: 1.02, 0.77, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    384.7 free,     83.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    409.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.3g  81.6g   0.1g R 100.0  16.5   5:38.04 ipython
+----
+2024/02/25 02:10:52 UTC
+top - 02:10:52 up  1:21,  0 users,  load average: 1.02, 0.77, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    383.4 free,     84.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    408.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  162.5g  82.9g   0.1g R 100.0  16.7   5:40.20 ipython
+----
+2024/02/25 02:10:54 UTC
+top - 02:10:54 up  1:21,  0 users,  load average: 1.02, 0.78, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    379.3 free,     88.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    404.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  162.5g  87.0g   0.1g R  93.8  17.5   5:42.35 ipython
+----
+2024/02/25 02:10:56 UTC
+top - 02:10:56 up  1:21,  0 users,  load average: 1.02, 0.78, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    375.3 free,     92.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    400.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  162.5g  91.0g   0.1g R 100.0  18.3   5:44.50 ipython
+----
+2024/02/25 02:10:58 UTC
+top - 02:10:58 up  1:21,  0 users,  load average: 1.02, 0.78, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    375.1 free,     93.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    399.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  162.5g  91.2g   0.1g R 100.0  18.4   5:46.65 ipython
+----
+2024/02/25 02:11:00 UTC
+top - 02:11:00 up  1:21,  0 users,  load average: 1.02, 0.78, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.0 us,  0.1 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    375.1 free,     93.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    399.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  162.5g  91.2g   0.1g R 100.0  18.4   5:48.81 ipython
+----
+2024/02/25 02:11:02 UTC
+top - 02:11:03 up  1:21,  0 users,  load average: 1.02, 0.78, 0.49
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.8 free,     79.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.7g  77.5g   0.1g R 100.0  15.6   5:50.97 ipython
+----
+2024/02/25 02:11:05 UTC
+top - 02:11:05 up  1:21,  0 users,  load average: 1.02, 0.78, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.8 free,     79.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.7g  77.5g   0.1g R 100.0  15.6   5:53.12 ipython
+----
+2024/02/25 02:11:07 UTC
+top - 02:11:07 up  1:21,  0 users,  load average: 1.02, 0.78, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    398.8 free,     69.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    423.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  139.6g  67.5g   0.1g R  93.3  13.6   5:55.27 ipython
+----
+2024/02/25 02:11:09 UTC
+top - 02:11:09 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    394.3 free,     73.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    419.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.7g  72.0g   0.1g R  93.3  14.5   5:57.42 ipython
+----
+2024/02/25 02:11:11 UTC
+top - 02:11:11 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    390.3 free,     77.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    415.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.7g  76.1g   0.1g R 100.0  15.3   5:59.58 ipython
+----
+2024/02/25 02:11:13 UTC
+top - 02:11:13 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.9 us,  0.0 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.8 free,     79.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.7g  77.5g   0.1g R 100.0  15.6   6:01.74 ipython
+----
+2024/02/25 02:11:15 UTC
+top - 02:11:15 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.8 free,     79.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.7g  77.5g   0.1g R 100.0  15.6   6:03.90 ipython
+----
+2024/02/25 02:11:17 UTC
+top - 02:11:18 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    386.6 free,     81.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    411.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.3g  79.7g   0.1g R 106.7  16.1   6:06.05 ipython
+----
+2024/02/25 02:11:20 UTC
+top - 02:11:20 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    384.2 free,     84.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    409.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.3g  82.1g   0.1g R 100.0  16.6   6:08.21 ipython
+----
+2024/02/25 02:11:22 UTC
+top - 02:11:22 up  1:22,  0 users,  load average: 1.01, 0.79, 0.50
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    384.2 free,     84.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    409.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.3g  82.1g   0.1g R 100.0  16.6   6:10.36 ipython
+----
+2024/02/25 02:11:24 UTC
+top - 02:11:24 up  1:22,  0 users,  load average: 1.01, 0.80, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    384.2 free,     84.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    409.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.3g  82.1g   0.1g R 106.7  16.6   6:12.52 ipython
+----
+2024/02/25 02:11:26 UTC
+top - 02:11:26 up  1:22,  0 users,  load average: 1.01, 0.80, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.4 free,     74.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.1g  72.9g   0.1g R 106.7  14.7   6:14.67 ipython
+----
+2024/02/25 02:11:28 UTC
+top - 02:11:28 up  1:22,  0 users,  load average: 1.01, 0.80, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    399.6 free,     68.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    424.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  139.4g  66.7g   0.1g R 100.0  13.5   6:16.82 ipython
+----
+2024/02/25 02:11:30 UTC
+top - 02:11:31 up  1:22,  0 users,  load average: 1.01, 0.80, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    398.1 free,     70.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    422.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  68.3g   0.1g R 100.0  13.8   6:18.98 ipython
+----
+2024/02/25 02:11:33 UTC
+top - 02:11:33 up  1:22,  0 users,  load average: 1.01, 0.80, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    397.9 free,     70.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    422.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  68.5g   0.1g R 100.0  13.8   6:21.13 ipython
+----
+2024/02/25 02:11:35 UTC
+top - 02:11:35 up  1:22,  0 users,  load average: 1.01, 0.81, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    397.6 free,     70.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    422.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  68.7g   0.1g R 100.0  13.9   6:23.29 ipython
+----
+2024/02/25 02:11:37 UTC
+top - 02:11:37 up  1:22,  0 users,  load average: 1.01, 0.81, 0.51
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    397.4 free,     70.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    422.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  69.0g   0.1g R 100.0  13.9   6:25.44 ipython
+----
+2024/02/25 02:11:39 UTC
+top - 02:11:39 up  1:22,  0 users,  load average: 1.01, 0.81, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    397.1 free,     71.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    421.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  69.2g   0.1g R 100.0  14.0   6:27.60 ipython
+----
+2024/02/25 02:11:41 UTC
+top - 02:11:41 up  1:22,  0 users,  load average: 1.01, 0.81, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    396.9 free,     71.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    421.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  69.4g   0.1g R 106.7  14.0   6:29.76 ipython
+----
+2024/02/25 02:11:43 UTC
+top - 02:11:43 up  1:22,  0 users,  load average: 1.01, 0.81, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    396.7 free,     71.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    421.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  69.7g   0.1g R  87.5  14.0   6:31.90 ipython
+----
+2024/02/25 02:11:45 UTC
+top - 02:11:46 up  1:22,  0 users,  load average: 1.01, 0.81, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    396.4 free,     71.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    421.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  69.9g   0.1g R 100.0  14.1   6:34.06 ipython
+----
+2024/02/25 02:11:48 UTC
+top - 02:11:48 up  1:22,  0 users,  load average: 1.01, 0.82, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    396.2 free,     72.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  70.1g   0.1g R 100.0  14.1   6:36.22 ipython
+----
+2024/02/25 02:11:50 UTC
+top - 02:11:50 up  1:22,  0 users,  load average: 1.01, 0.82, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    396.0 free,     72.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.7g  70.4g   0.1g R  93.3  14.2   6:38.37 ipython
+----
+2024/02/25 02:11:52 UTC
+top - 02:11:52 up  1:22,  0 users,  load average: 1.01, 0.82, 0.52
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    395.7 free,     72.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  70.6g   0.1g R 106.7  14.2   6:40.53 ipython
+----
+2024/02/25 02:11:54 UTC
+top - 02:11:54 up  1:22,  0 users,  load average: 1.00, 0.82, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    395.5 free,     72.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  70.9g   0.1g R 106.7  14.3   6:42.69 ipython
+----
+2024/02/25 02:11:56 UTC
+top - 02:11:56 up  1:22,  0 users,  load average: 1.00, 0.82, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    395.2 free,     73.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  71.1g   0.1g R 100.0  14.3   6:44.83 ipython
+----
+2024/02/25 02:11:58 UTC
+top - 02:11:59 up  1:22,  0 users,  load average: 1.00, 0.82, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    395.0 free,     73.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    419.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  71.3g   0.1g R 106.7  14.4   6:46.99 ipython
+----
+2024/02/25 02:12:01 UTC
+top - 02:12:01 up  1:22,  0 users,  load average: 1.00, 0.82, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    394.8 free,     73.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    419.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  71.6g   0.1g R 106.7  14.4   6:49.15 ipython
+----
+2024/02/25 02:12:03 UTC
+top - 02:12:03 up  1:22,  0 users,  load average: 1.00, 0.83, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    394.5 free,     73.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    419.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  71.8g   0.1g R  93.3  14.5   6:51.29 ipython
+----
+2024/02/25 02:12:05 UTC
+top - 02:12:05 up  1:22,  0 users,  load average: 1.00, 0.83, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    394.3 free,     73.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    419.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  72.0g   0.1g R 106.7  14.5   6:53.46 ipython
+----
+2024/02/25 02:12:07 UTC
+top - 02:12:07 up  1:22,  0 users,  load average: 1.00, 0.83, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    394.1 free,     74.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  72.3g   0.1g R 100.0  14.6   6:55.61 ipython
+----
+2024/02/25 02:12:09 UTC
+top - 02:12:09 up  1:23,  0 users,  load average: 1.00, 0.83, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st
+GiB Mem :    496.0 total,    393.8 free,     74.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  72.5g   0.1g R 100.0  14.6   6:57.76 ipython
+----
+2024/02/25 02:12:11 UTC
+top - 02:12:11 up  1:23,  0 users,  load average: 1.00, 0.83, 0.53
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.6 free,     74.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  144.0g  72.8g   0.1g R 100.0  14.7   6:59.92 ipython
+----
+2024/02/25 02:12:13 UTC
+top - 02:12:14 up  1:23,  0 users,  load average: 1.00, 0.83, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.0 free,     75.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    417.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  146.3g  73.3g   0.1g R 100.0  14.8   7:02.07 ipython
+----
+2024/02/25 02:12:16 UTC
+top - 02:12:16 up  1:23,  0 users,  load average: 1.00, 0.83, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    392.3 free,     75.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    417.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  146.3g  74.0g   0.1g R 106.7  14.9   7:04.23 ipython
+----
+2024/02/25 02:12:18 UTC
+top - 02:12:18 up  1:23,  0 users,  load average: 1.00, 0.83, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.2 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    391.6 free,     76.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    416.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  146.3g  74.7g   0.1g R  93.3  15.1   7:06.38 ipython
+----
+2024/02/25 02:12:20 UTC
+top - 02:12:20 up  1:23,  0 users,  load average: 1.00, 0.83, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.1 free,     80.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    412.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  150.9g  78.3g   0.1g R 106.7  15.8   7:08.54 ipython
+----
+2024/02/25 02:12:22 UTC
+top - 02:12:22 up  1:23,  0 users,  load average: 1.00, 0.83, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    385.4 free,     82.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    410.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  153.2g  81.0g   0.1g R 100.0  16.3   7:10.69 ipython
+----
+2024/02/25 02:12:24 UTC
+top - 02:12:24 up  1:23,  0 users,  load average: 1.00, 0.84, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st
+GiB Mem :    496.0 total,    388.6 free,     79.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  148.9g  77.7g   0.1g R 100.0  15.7   7:12.84 ipython
+----
+2024/02/25 02:12:26 UTC
+top - 02:12:27 up  1:23,  0 users,  load average: 1.00, 0.84, 0.54
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    398.9 free,     69.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    423.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  138.4g  67.5g   0.1g R 100.0  13.6   7:15.00 ipython
+----
+2024/02/25 02:12:29 UTC
+top - 02:12:29 up  1:23,  0 users,  load average: 1.16, 0.87, 0.56
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.3 free,     58.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  127.9g  57.1g   0.1g R 100.0  11.5   7:17.16 ipython
+----
+2024/02/25 02:12:31 UTC
+top - 02:12:31 up  1:23,  0 users,  load average: 1.16, 0.87, 0.56
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    419.6 free,     48.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    444.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  117.4g  46.8g   0.1g R 106.7   9.4   7:19.32 ipython
+----catflags
+2024/02/25 02:12:33 UTC
+top - 02:12:33 up  1:23,  0 users,  load average: 1.15, 0.88, 0.56
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    438.3 free,     29.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    463.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  100.0g  28.1g   0.1g R 100.0   5.7   7:21.82 ipython
+----
+2024/02/25 02:12:35 UTC
+top - 02:12:35 up  1:23,  0 users,  load average: 1.15, 0.88, 0.56
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    434.6 free,     33.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    459.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  102.5g  31.8g   0.1g R 100.0   6.4   7:23.98 ipython
+----
+2024/02/25 02:12:37 UTC
+top - 02:12:37 up  1:23,  0 users,  load average: 1.15, 0.88, 0.56
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.2 sy,  0.0 ni, 99.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st
+GiB Mem :    496.0 total,    430.2 free,     38.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    454.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  108.7g  36.2g   0.1g R 100.0   7.3   7:26.14 ipython
+----
+2024/02/25 02:12:39 UTC
+top - 02:12:39 up  1:23,  0 users,  load average: 1.22, 0.89, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    425.8 free,     42.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    450.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  113.3g  40.6g   0.1g R  93.3   8.2   7:28.28 ipython
+----
+2024/02/25 02:12:42 UTC
+top - 02:12:42 up  1:23,  0 users,  load average: 1.22, 0.89, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    421.7 free,     46.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    446.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  115.5g  44.7g   0.1g R  93.8   9.0   7:30.44 ipython
+----
+2024/02/25 02:12:44 UTC
+top - 02:12:44 up  1:23,  0 users,  load average: 1.20, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    419.6 free,     48.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    444.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  117.4g  46.7g   0.1g R 100.0   9.4   7:32.60 ipython
+----
+2024/02/25 02:12:46 UTC
+top - 02:12:46 up  1:23,  0 users,  load average: 1.20, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    417.5 free,     50.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    442.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  119.6g  48.9g   0.1g R 100.0   9.9   7:34.75 ipython
+----flux
+2024/02/25 02:12:48 UTC
+top - 02:12:48 up  1:23,  0 users,  load average: 1.18, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    438.1 free,     30.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    462.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  101.0g  28.3g   0.1g R 100.0   5.7   7:36.90 ipython
+----
+2024/02/25 02:12:50 UTC
+top - 02:12:50 up  1:23,  0 users,  load average: 1.18, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    433.1 free,     35.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    457.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  105.3g  33.3g   0.1g R 100.0   6.7   7:39.06 ipython
+----
+2024/02/25 02:12:52 UTC
+top - 02:12:52 up  1:23,  0 users,  load average: 1.18, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.4 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    433.1 free,     35.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    457.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  105.3g  33.3g   0.1g R  93.3   6.7   7:41.21 ipython
+----
+2024/02/25 02:12:54 UTC
+top - 02:12:55 up  1:23,  0 users,  load average: 1.17, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.5 sy,  0.0 ni, 99.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    431.0 free,     37.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    455.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  107.5g  35.4g   0.1g R 100.0   7.1   7:43.37 ipython
+----
+2024/02/25 02:12:57 UTC
+top - 02:12:57 up  1:23,  0 users,  load average: 1.17, 0.90, 0.57
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    428.1 free,     40.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    452.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  109.6g  38.4g   0.1g R 100.0   7.7   7:45.53 ipython
+----
+2024/02/25 02:12:59 UTC
+top - 02:12:59 up  1:23,  0 users,  load average: 1.15, 0.90, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    429.6 free,     38.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    454.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  107.5g  36.8g   0.1g R 106.7   7.4   7:47.69 ipython
+----MultiIndexDFObject
+2024/02/25 02:13:01 UTC
+top - 02:13:01 up  1:23,  0 users,  load average: 1.15, 0.90, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    428.3 free,     39.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    453.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  109.3g  38.1g   0.1g R 100.0   7.7   7:49.84 ipython
+----
+2024/02/25 02:13:03 UTC
+top - 02:13:03 up  1:23,  0 users,  load average: 1.14, 0.90, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    420.3 free,     47.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    445.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  118.0g  46.1g   0.1g R 100.0   9.3   7:51.99 ipython
+----
+2024/02/25 02:13:05 UTC
+top - 02:13:05 up  1:23,  0 users,  load average: 1.14, 0.90, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    417.6 free,     50.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    442.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  120.2g  48.8g   0.1g R  93.3   9.8   7:54.14 ipython
+----
+2024/02/25 02:13:07 UTC
+top - 02:13:08 up  1:23,  0 users,  load average: 1.14, 0.90, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    412.2 free,     56.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    436.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  135.3g  54.1g   0.1g R 100.0  10.9   7:56.31 ipython
+----
+2024/02/25 02:13:10 UTC
+top - 02:13:10 up  1:24,  0 users,  load average: 1.13, 0.91, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    403.0 free,     65.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    427.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  135.3g  63.4g   0.1g R 106.7  12.8   7:58.46 ipython
+----
+2024/02/25 02:13:12 UTC
+top - 02:13:12 up  1:24,  0 users,  load average: 1.13, 0.91, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    393.8 free,     74.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    418.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  146.2g  72.5g   0.1g R 100.0  14.6   8:00.62 ipython
+----
+2024/02/25 02:13:14 UTC
+top - 02:13:14 up  1:24,  0 users,  load average: 1.12, 0.91, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    395.5 free,     72.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    420.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  141.9g  70.8g   0.1g R  93.3  14.3   8:02.76 ipython
+----
+2024/02/25 02:13:16 UTC
+top - 02:13:16 up  1:24,  0 users,  load average: 1.12, 0.91, 0.58
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    394.5 free,     73.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    419.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  146.2g  71.9g   0.1g R 100.0  14.5   8:04.92 ipython
+----
+2024/02/25 02:13:18 UTC
+top - 02:13:18 up  1:24,  0 users,  load average: 1.11, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    391.6 free,     76.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    416.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  146.2g  74.8g   0.1g R 100.0  15.1   8:07.07 ipython
+----
+2024/02/25 02:13:20 UTC
+top - 02:13:20 up  1:24,  0 users,  load average: 1.11, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    388.7 free,     79.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    413.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  150.5g  77.6g   0.1g R 100.0  15.6   8:09.23 ipython
+----
+2024/02/25 02:13:22 UTC
+top - 02:13:23 up  1:24,  0 users,  load average: 1.11, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    386.5 free,     81.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    411.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  150.5g  79.9g   0.1g R 100.0  16.1   8:11.39 ipython
+----
+2024/02/25 02:13:25 UTC
+top - 02:13:25 up  1:24,  0 users,  load average: 1.10, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.5 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    412.5 free,     55.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    437.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  126.7g  53.9g   0.1g R 100.0  10.9   8:13.54 ipython
+----
+2024/02/25 02:13:27 UTC
+top - 02:13:27 up  1:24,  0 users,  load average: 1.10, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.5 us,  0.3 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    410.0 free,     58.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  127.8g  56.3g   0.1g R  93.3  11.4   8:15.69 ipython
+----
+2024/02/25 02:13:29 UTC
+top - 02:13:29 up  1:24,  0 users,  load average: 1.09, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    411.1 free,     57.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    435.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.1g  55.2g   0.1g R 106.7  11.1   8:17.85 ipython
+----
+2024/02/25 02:13:31 UTC
+top - 02:13:31 up  1:24,  0 users,  load average: 1.09, 0.91, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    410.1 free,     58.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.1g  56.3g   0.1g R 106.7  11.3   8:20.01 ipython
+----
+2024/02/25 02:13:33 UTC
+top - 02:13:33 up  1:24,  0 users,  load average: 1.08, 0.92, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.1 st
+GiB Mem :    496.0 total,    409.0 free,     59.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.1g  57.4g   0.1g R 100.0  11.6   8:22.16 ipython
+----
+2024/02/25 02:13:35 UTC
+top - 02:13:36 up  1:24,  0 users,  load average: 1.08, 0.92, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    407.6 free,     60.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    432.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.1g  58.8g   0.1g R 100.0  11.8   8:24.31 ipython
+----
+2024/02/25 02:13:38 UTC
+top - 02:13:38 up  1:24,  0 users,  load average: 1.08, 0.92, 0.59
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    411.2 free,     57.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    435.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  125.9g  55.2g   0.1g R 100.0  11.1   8:26.47 ipython
+----
+2024/02/25 02:13:40 UTC
+top - 02:13:40 up  1:24,  0 users,  load average: 1.16, 0.93, 0.60
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.1 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    410.5 free,     57.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    435.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.4g  55.9g   0.1g R  93.8  11.3   8:28.62 ipython
+----
+2024/02/25 02:13:42 UTC
+top - 02:13:42 up  1:24,  0 users,  load average: 1.16, 0.93, 0.60
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.5 free,     58.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.4g  56.9g   0.1g R 100.0  11.5   8:30.78 ipython
+----
+2024/02/25 02:13:44 UTC
+top - 02:13:44 up  1:24,  0 users,  load average: 1.15, 0.93, 0.60
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.1 free,     60.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    432.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.4g  58.2g   0.1g R 100.0  11.7   8:32.93 ipython
+----
+2024/02/25 02:13:46 UTC
+top - 02:13:46 up  1:24,  0 users,  load average: 1.15, 0.93, 0.60
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.5 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    407.8 free,     60.4 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    432.5 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  130.2g  58.6g   0.1g R 100.0  11.8   8:35.09 ipython
+----
+2024/02/25 02:13:48 UTC
+top - 02:13:48 up  1:24,  0 users,  load average: 1.13, 0.94, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    410.4 free,     57.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    435.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.4g  55.9g   0.1g R  93.3  11.3   8:37.24 ipython
+----
+2024/02/25 02:13:50 UTC
+top - 02:13:51 up  1:24,  0 users,  load average: 1.13, 0.94, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    410.0 free,     58.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.5g  56.4g   0.1g R 100.0  11.4   8:39.40 ipython
+----
+2024/02/25 02:13:53 UTC
+top - 02:13:53 up  1:24,  0 users,  load average: 1.13, 0.94, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.6 free,     58.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.3 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.6g  56.8g   0.1g R  93.3  11.4   8:41.55 ipython
+----
+2024/02/25 02:13:55 UTC
+top - 02:13:55 up  1:24,  0 users,  load average: 1.12, 0.94, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.1 free,     59.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.8g  57.2g   0.1g R 100.0  11.5   8:43.70 ipython
+----
+2024/02/25 02:13:57 UTC
+top - 02:13:57 up  1:24,  0 users,  load average: 1.12, 0.94, 0.61
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.9 free,     59.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.8g  57.5g   0.1g R 100.0  11.6   8:45.86 ipython
+----
+2024/02/25 02:13:59 UTC
+top - 02:13:59 up  1:24,  0 users,  load average: 1.19, 0.96, 0.62
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.7 free,     59.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.8g  57.7g   0.1g R 106.7  11.6   8:48.02 ipython
+----
+2024/02/25 02:14:01 UTC
+top - 02:14:01 up  1:24,  0 users,  load average: 1.19, 0.96, 0.62
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.5 free,     59.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.8g  57.9g   0.1g R 100.0  11.7   8:50.18 ipython
+----
+2024/02/25 02:14:03 UTC
+top - 02:14:04 up  1:24,  0 users,  load average: 1.18, 0.96, 0.62
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.3 free,     59.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.8g  58.0g   0.1g R 100.0  11.7   8:52.33 ipython
+----
+2024/02/25 02:14:06 UTC
+top - 02:14:06 up  1:24,  0 users,  load average: 1.18, 0.96, 0.62
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.3 sy,  0.0 ni, 99.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.3 free,     59.9 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    433.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.7g  58.0g   0.1g R 100.0  11.7   8:54.48 ipython
+----
+2024/02/25 02:14:08 UTC
+top - 02:14:09 up  1:25,  0 users,  load average: 1.40, 1.01, 0.64
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    408.1 free,     60.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    432.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.9g  58.2g   0.1g R 100.0  11.7   8:57.39 ipython
+----
+2024/02/25 02:14:19 UTC
+top - 02:14:19 up  1:25,  0 users,  load average: 1.42, 1.02, 0.65
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    407.0 free,     61.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    431.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  130.0g  59.3g   0.1g R 100.0  12.0   9:07.55 ipython
+----
+2024/02/25 02:14:29 UTC
+top - 02:14:29 up  1:25,  0 users,  load average: 1.52, 1.06, 0.66
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.4 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.7 free,     58.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.6g  56.7g   0.1g R 100.0  11.4   9:17.70 ipython
+----
+2024/02/25 02:14:39 UTC
+top - 02:14:39 up  1:25,  0 users,  load average: 1.52, 1.07, 0.67
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    415.9 free,     52.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    440.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  123.0g  50.5g   0.1g R 100.0  10.2   9:27.86 ipython
+----
+2024/02/25 02:14:49 UTC
+top - 02:14:49 up  1:25,  0 users,  load average: 1.52, 1.09, 0.68
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    413.5 free,     54.7 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    438.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  125.0g  52.9g   0.1g R 100.0  10.7   9:38.01 ipython
+----
+2024/02/25 02:14:59 UTC
+top - 02:14:59 up  1:25,  0 users,  load average: 1.68, 1.13, 0.70
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    409.9 free,     58.3 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    434.6 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.0g  56.5g   0.1g R  93.8  11.4   9:48.17 ipython
+----
+2024/02/25 02:15:09 UTC
+top - 02:15:10 up  1:26,  0 users,  load average: 1.81, 1.18, 0.72
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    405.6 free,     62.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    430.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.0g  60.7g   0.1g R 100.0  12.2   9:58.32 ipython
+----
+2024/02/25 02:15:20 UTC
+top - 02:15:20 up  1:26,  0 users,  load average: 1.85, 1.21, 0.73
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    405.4 free,     62.8 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    430.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.0g  60.9g   0.1g R  93.8  12.3  10:08.48 ipython
+----
+2024/02/25 02:15:30 UTC
+top - 02:15:30 up  1:26,  0 users,  load average: 1.88, 1.23, 0.75
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    404.7 free,     63.5 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    429.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  132.4g  61.7g   0.1g R 100.0  12.4  10:18.63 ipython
+----
+2024/02/25 02:15:40 UTC
+top - 02:15:40 up  1:26,  0 users,  load average: 1.82, 1.24, 0.76
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    402.3 free,     66.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    427.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  134.8g  64.1g   0.1g R 100.0  12.9  10:28.79 ipython
+----
+2024/02/25 02:15:50 UTC
+top - 02:15:50 up  1:26,  0 users,  load average: 1.77, 1.25, 0.77
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    420.1 free,     48.1 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    444.9 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  117.5g  46.3g   0.1g R 106.7   9.3  10:38.94 ipython
+----to_parquet
+2024/02/25 02:16:00 UTC
+top - 02:16:00 up  1:26,  0 users,  load average: 1.73, 1.26, 0.77
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.6 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    422.2 free,     46.0 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    447.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  117.0g  44.2g   0.1g R  93.3   8.9  10:49.09 ipython
+----
+2024/02/25 02:16:10 UTC
+top - 02:16:10 up  1:27,  0 users,  load average: 1.78, 1.28, 0.79
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.1 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    417.0 free,     51.2 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    441.8 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  122.7g  49.3g   0.1g S 100.0  10.0  11:00.52 ipython
+----
+2024/02/25 02:16:20 UTC
+top - 02:16:21 up  1:27,  0 users,  load average: 1.66, 1.27, 0.79
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.0 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    414.7 free,     53.6 used,     27.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    439.4 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  128.3g  51.7g   0.1g S 100.0  10.4  11:10.81 ipython
+----
+2024/02/25 02:16:31 UTC
+top - 02:16:31 up  1:27,  0 users,  load average: 1.56, 1.26, 0.79
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    417.5 free,     49.8 used,     28.7 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  124.1g  48.0g   0.1g R 100.0   9.7  11:20.99 ipython
+----
+2024/02/25 02:16:41 UTC
+top - 02:16:41 up  1:27,  0 users,  load average: 1.47, 1.25, 0.80
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.1 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    415.7 free,     49.8 used,     30.4 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  124.1g  48.0g   0.1g R 100.0   9.7  11:31.16 ipython
+----
+2024/02/25 02:16:51 UTC
+top - 02:16:51 up  1:27,  0 users,  load average: 1.40, 1.25, 0.80
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.6 us,  0.2 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    414.0 free,     49.8 used,     32.2 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  124.1g  48.0g   0.1g R 100.0   9.7  11:41.32 ipython
+----
+2024/02/25 02:17:01 UTC
+top - 02:17:01 up  1:27,  0 users,  load average: 1.34, 1.24, 0.80
+Tasks:   1 total,   1 running,   0 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.7 us,  0.2 sy,  0.0 ni, 98.9 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    412.2 free,     49.8 used,     33.9 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  124.1g  48.0g   0.1g R 100.0   9.7  11:51.42 ipython
+----
+2024/02/25 02:17:08 UTC
+top - 02:17:08 up  1:27,  0 users,  load average: 1.39, 1.25, 0.81
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.2 sy,  0.0 ni, 98.9 id,  0.8 wa,  0.0 hi,  0.0 si,  0.1 st
+GiB Mem :    496.0 total,    411.6 free,     49.8 used,     34.6 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  124.1g  47.9g   0.1g D   0.0   9.7  11:55.36 ipython
+----
+2024/02/25 02:17:38 UTC
+top - 02:17:38 up  1:28,  0 users,  load average: 1.86, 1.38, 0.87
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.3 id,  0.6 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    411.6 free,     49.8 used,     34.6 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    443.1 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  124.1g  47.9g   0.1g D   0.0   9.7  11:55.76 ipython
+----
+2024/02/25 02:18:30 UTC
+top - 02:18:30 up  1:29,  0 users,  load average: 0.96, 1.23, 0.84
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+GiB Mem :    496.0 total,    419.7 free,     41.6 used,     34.6 buff/cache
+GiB Swap:      0.0 total,      0.0 free,      0.0 used.    451.2 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  1418 jovyan    20   0  119.8g  39.8g   0.1g S   0.0   8.0  11:56.20 ipython
