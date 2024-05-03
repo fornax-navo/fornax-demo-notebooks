@@ -96,6 +96,66 @@ def create_figures(df_lc, show_nbr_figures, save_output):
             
     print("Done")
     return(True)
+    
+def create_figure(df_lc, index, save_output):
+    '''
+    Creates a figure of the lightcurve for a specific object in df_lc, identified by index.
+    
+    Parameters
+    ----------
+    df_lc : DataFrame
+        DataFrame containing lightcurve objects from which to create the lightcurve figure.
+        
+    index : int
+        Index of the object to plot. This is not the object ID but the position in the list of grouped objects.
+        
+    save_output: bool
+        Whether to save the lightcurve figure. If saved, it will be in the "output" directory.
+        
+    
+    Returns
+    -------
+    Saves the figure in the output directory if save_output is True.
+    Shows the figure inline if save_output is False.
+    
+    '''
+    
+    grouped = list(df_lc.groupby('objectid'))
+    if index < 0 or index >= len(grouped):
+        print(f"Index {index} is out of bounds. No figure created.")
+        return False
+    
+    objectid, singleobj_df = grouped[index]
+    
+    # Set up for plotting.
+    fig, axes = plt.subplot_mosaic(mosaic=[["A"],["A"],["B"]] , figsize=(10,6))
+
+    # Iterate over bands and plot light curves.
+    band_groups = _clean_lightcurves(singleobj_df).groupby('band')
+    max_fluxes = band_groups.flux.max()  # max flux per band
+    for band, band_df in band_groups:
+        if band == ICECUBE_BAND:
+            continue
+        _plot_lightcurve(band, band_df, axes, max_fluxes)
+    if ICECUBE_BAND in band_groups.groups:
+        _plot_lightcurve(ICECUBE_BAND, band_groups.get_group(ICECUBE_BAND), axes)
+
+    # Format the figure.
+    ztf_df = band_groups.filter(lambda band_df: band_df.name in ZTF_BANDS)
+    _format_axes(axes, ztf_time_min_max=(ztf_df.time.min(), ztf_df.time.max()))
+    plt.subplots_adjust(hspace=0.2 , wspace=0.3)
+    axes["A"].legend()
+
+    # Save or show the figure.
+    if save_output:
+        savename = os.path.join("output" , f"lightcurve_{objectid}.png")
+        plt.savefig(savename, bbox_inches="tight")
+        print(f"Figure saved as {savename}")
+    else:
+        plt.show()
+
+    plt.close()
+    return True
 
 
 def _clean_lightcurves(singleobj_df):
