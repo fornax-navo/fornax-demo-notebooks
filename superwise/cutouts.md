@@ -13,7 +13,7 @@ kernelspec:
 
 # Super WISE: To Enhance WISE images learning from Spitzer
 
-By the IPAC Science Platform Team, started: Apr 24, 2024- last edit: Apr 24, 2024
+By the IPAC Science Platform Team, started: Apr 24, 2024- last edit: May 1st, 2024
 
 ***
 
@@ -37,8 +37,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-gs = fits.getdata('data/gds.fits')
-sel1 = (gs['zbest']>0.01)&(gs['zbest']<0.3)&(gs['CLASS_STAR']<0.95)&(gs['Hmag']<24)&(gs['FWHM_IMAGE']>5)
+gs = fits.getdata('../../../Dropbox/WFIRST_WPS/CANDELS_fits/gds.fits')
+sel1 = (gs['zbest']>0.01)&(gs['zbest']<0.1)&(gs['CLASS_STAR']<0.95)&(gs['Hmag']<24)&(gs['FWHM_IMAGE']>15)
 ras, decs = gs['RA_1'][sel1],gs['DEC_1'][sel1]
 print(len(ras))
 ```
@@ -220,7 +220,7 @@ for boz in range(5):
     plt.show()
 ```
 
-## Training a model
+## Training a unet model
 
 ```{code-cell} ipython3
 import torch
@@ -286,7 +286,6 @@ model.eval()
 ```
 
 ```{code-cell} ipython3
-
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=5,shuffle=True, num_workers=int(0))
 inputs, classes = next(iter(dataloader))  
 
@@ -318,7 +317,7 @@ for k in range(inputs.shape[0]):
     plt.show()
 ```
 
-# Two channel model
+# Two channel unet model
 
 ```{code-cell} ipython3
 import torch
@@ -376,6 +375,11 @@ def train(model, dataloader, epochs, device):
             loss.backward()
             optimizer.step()
         print(f'Epoch {epoch+1}, Loss: {loss.item()}')
+        
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = ConditionalDiffusionModel().to(device)
+train(model, dataloader, epochs=50, device=device)
+torch.save(model, 'model_complete_2band.pth')
 ```
 
 ```{code-cell} ipython3
@@ -391,7 +395,7 @@ model.eval()
 ```
 
 ```{code-cell} ipython3
-
+device='cpu'
 dataloader = torch.utils.data.DataLoader(dataset, batch_size=1,shuffle=True, num_workers=int(0))
 inputs, classes = next(iter(dataloader))  
 
@@ -407,41 +411,183 @@ for k in range(inputs.shape[0]):
         output = model(cutout)
 
 
-    plt.figure(figsize=(6,4))
-    plt.subplot(2,3,1)
+    plt.figure(figsize=(12,3))
+    plt.subplot(1,6,1)
     plt.imshow(w1in,origin='lower')
     plt.text(1,1,'W1',fontsize=10,color='y')
     plt.axis('off')
 
-    plt.subplot(2,3,4)
+    plt.subplot(1,6,2)
     plt.imshow(w2in,origin='lower')
     plt.text(1,1,'W2',fontsize=10,color='y')
     plt.axis('off')
 
-    plt.subplot(2,3,2)
+    plt.subplot(1,6,3)
     output_image = output.squeeze().cpu().numpy()  
     plt.imshow(output_image[0,:,:],origin='lower')  
-    plt.text(1,1,'W1 Enhanced',fontsize=10,color='y')
+    plt.text(1,2,'W1 DL-Enhanced',fontsize=10,color='y')
     plt.axis('off')
 
 
-    plt.subplot(2,3,5)
+    plt.subplot(1,6,4)
     plt.imshow(output_image[1,:,:],origin='lower')  
-    plt.text(1,1,'W2 Enhanced',fontsize=10,color='y')
+    plt.text(1,2,'W2 DL-Enhanced',fontsize=10,color='y')
     plt.axis('off')
 
-    plt.subplot(2,3,3)
+    plt.subplot(1,6,5)
     plt.imshow(ch1in,origin='lower')
     plt.text(1,1,'IRAC Ch1',fontsize=10,color='y')
     plt.axis('off')
 
-    plt.subplot(2,3,6)
+    plt.subplot(1,6,6)
     plt.imshow(ch2in,origin='lower')
     plt.text(1,1,'IRAC Ch2',fontsize=10,color='y')
     plt.axis('off')
 
     plt.tight_layout()
-    plt.show()
+    #plt.show()
+    
+    plt.savefig('test.png')
+    
+    
+    
+    
+    
+```
+
+# Some diffusion
+
+```{code-cell} ipython3
+import torch
+import torch.nn as nn
+
+class SuperResolutionDiffusionModel(nn.Module):
+    def __init__(self):
+        super(SuperResolutionDiffusionModel, self).__init__()
+        # Encoder: upscales and increases depth
+        self.encoder = nn.Sequential(
+            nn.Conv2d(2, 16, kernel_size=3, stride=1, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(16, 32, kernel_size=3, stride=1, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(32, 64, kernel_size=3, stride=1, padding=1),
+            nn.ReLU(),
+            nn.Upsample(scale_factor=2)  # Initial upsampling
+        )
+        # Processing layers to ensure correct output dimensions
+        self.processing = nn.Sequential(
+            nn.Conv2d(64, 32, kernel_size=3, stride=1, padding=1),
+            nn.ReLU(),
+            nn.Upsample(size=(64, 64)),  # Upscale to target size
+            nn.Conv2d(32, 16, kernel_size=3, stride=1, padding=1),
+            nn.ReLU()
+        )
+        # Decoder: reduces depth back down to 2 channels
+        self.decoder = nn.Sequential(
+            nn.Conv2d(16, 2, kernel_size=3, stride=1, padding=1)  # Output 2 channels
+        )
+
+    def forward(self, x):
+        x = self.encoder(x)
+        x = self.processing(x)
+        x = self.decoder(x)
+        return x
+
+def train(model, dataloader, epochs, device):
+    criterion = nn.MSELoss()
+    optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
+
+    model.train()
+    for epoch in range(epochs):
+        for batch in dataloader:
+            inputs = batch[0].to(device)
+            low_res = inputs[:, 0:2, :, :]  # Prepare low-res input
+            high_res = inputs[:, 2:4, :, :].to(device)  # Prepare high-res targets
+            
+            # Add noise for the diffusion simulation
+            noise = torch.randn_like(high_res) * 0.1  # Noise level can be adjusted
+            noisy_high_res = high_res + noise
+            
+            optimizer.zero_grad()
+            outputs = model(low_res)
+            loss = criterion(outputs, noisy_high_res)
+            loss.backward()
+            optimizer.step()
+        
+        print(f'Epoch {epoch+1}, Loss: {loss.item()}')
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = SuperResolutionDiffusionModel().to(device)
+# Assuming dataloader and epochs are defined elsewhere
+train(model, dataloader, 50, device)
+torch.save(model.state_dict(), 'model_complete_2band.pth')
+```
+
+```{code-cell} ipython3
+model = SuperResolutionDiffusionModel().to(device)
+model.load_state_dict(torch.load('model_complete_2band.pth'))
+model.eval()
+```
+
+```{code-cell} ipython3
+device='cpu'
+dataloader = torch.utils.data.DataLoader(dataset, batch_size=1,shuffle=True, num_workers=int(0))
+inputs, classes = next(iter(dataloader))  
+
+for k in range(inputs.shape[0]):
+    w1in = inputs[k, 0, 18:-18, 18:-18].cpu().numpy()  
+    w2in = inputs[k, 1, 18:-18, 18:-18].cpu().numpy()  
+    ch1in = inputs[k, 2, :,:].cpu().numpy()  
+    ch2in = inputs[k, 3, :,:].cpu().numpy()  
+    
+
+    cutout = inputs[k, 0:2, 18:-18, 18:-18].unsqueeze(0).to(device)  # Process and move in one step
+    with torch.no_grad():  # Inference without tracking gradients
+        output = model(cutout)
+
+
+    plt.figure(figsize=(12,3))
+    plt.subplot(1,6,1)
+    plt.imshow(w1in,origin='lower')
+    plt.text(1,1,'W1',fontsize=10,color='y')
+    plt.axis('off')
+
+    plt.subplot(1,6,2)
+    plt.imshow(w2in,origin='lower')
+    plt.text(1,1,'W2',fontsize=10,color='y')
+    plt.axis('off')
+
+    plt.subplot(1,6,3)
+    output_image = output.squeeze().cpu().numpy()  
+    plt.imshow(output_image[0,:,:],origin='lower')  
+    plt.text(1,2,'W1 DL-Enhanced',fontsize=10,color='y')
+    plt.axis('off')
+
+
+    plt.subplot(1,6,4)
+    plt.imshow(output_image[1,:,:],origin='lower')  
+    plt.text(1,2,'W2 DL-Enhanced',fontsize=10,color='y')
+    plt.axis('off')
+
+    plt.subplot(1,6,5)
+    plt.imshow(ch1in,origin='lower')
+    plt.text(1,1,'IRAC Ch1',fontsize=10,color='y')
+    plt.axis('off')
+
+    plt.subplot(1,6,6)
+    plt.imshow(ch2in,origin='lower')
+    plt.text(1,1,'IRAC Ch2',fontsize=10,color='y')
+    plt.axis('off')
+
+    plt.tight_layout()
+    #plt.show()
+    
+    #plt.savefig('test.png')
+    
+    
+    
+    
+    
 ```
 
 ```{code-cell} ipython3
