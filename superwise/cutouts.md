@@ -4,11 +4,11 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.16.1
+    jupytext_version: 1.16.0
 kernelspec:
-  display_name: Python 3 (ipykernel)
+  display_name: root *
   language: python
-  name: python3
+  name: conda-root-py
 ---
 
 # Super WISE: To Enhance WISE images learning from Spitzer
@@ -37,8 +37,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-gs = fits.getdata('../../../Dropbox/WFIRST_WPS/CANDELS_fits/gds.fits')
-sel1 = (gs['zbest']>0.01)&(gs['zbest']<0.1)&(gs['CLASS_STAR']<0.95)&(gs['Hmag']<24)&(gs['FWHM_IMAGE']>15)
+gs = fits.getdata('data/gds.fits')
+sel1 = (gs['zbest']>0.01)&(gs['zbest']<0.3)&(gs['CLASS_STAR']<0.95)&(gs['Hmag']<24)&(gs['FWHM_IMAGE']>5)
 ras, decs = gs['RA_1'][sel1],gs['DEC_1'][sel1]
 print(len(ras))
 ```
@@ -57,7 +57,7 @@ coord = SkyCoord(np.median(ras),np.median(decs), unit='deg')
 spitzer_images = Irsa.query_sia(pos=(coord, 15 * u.arcmin), collection='spitzer_scandels').to_table()
 science_images = spitzer_images[spitzer_images['dataproduct_subtype'] == 'science']
 
-WISE_images = Irsa.query_sia(pos=(coord, 15 * u.arcmin), collection='wise_allwise').to_table()
+WISE_images = Irsa.query_sia(pos=(coord, 15 * u.arcmin), collection='wise_unwise').to_table()
 wscience_images = WISE_images[WISE_images['dataproduct_subtype'] == 'science']
 ```
 
@@ -377,16 +377,13 @@ def train(model, dataloader, epochs, device):
         print(f'Epoch {epoch+1}, Loss: {loss.item()}')
         
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = ConditionalDiffusionModel().to(device)
-train(model, dataloader, epochs=50, device=device)
-torch.save(model, 'model_complete_2band.pth')
 ```
 
 ```{code-cell} ipython3
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = ConditionalDiffusionModel().to(device)
-train(model, dataloader, epochs=50, device=device)
-torch.save(model, 'model_complete_2band.pth')
+#train(model, dataloader, epochs=50, device=device)
+#torch.save(model, 'model_complete_2band.pth')
 ```
 
 ```{code-cell} ipython3
@@ -517,10 +514,6 @@ def train(model, dataloader, epochs, device):
         print(f'Epoch {epoch+1}, Loss: {loss.item()}')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = SuperResolutionDiffusionModel().to(device)
-# Assuming dataloader and epochs are defined elsewhere
-train(model, dataloader, 50, device)
-torch.save(model.state_dict(), 'model_complete_2band.pth')
 ```
 
 ```{code-cell} ipython3
