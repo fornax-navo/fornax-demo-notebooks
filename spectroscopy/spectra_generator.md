@@ -105,6 +105,7 @@ Andreas Faisst, Jessica Krick, Shoubaneh Hemmati, Troy Raen, Brigitta Sipőcz, D
 ## IMPORTS
 import sys
 import numpy as np
+import os
 
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -123,6 +124,7 @@ from sdss_functions import SDSS_get_spec
 from mast_functions import HST_get_spec
 from keck_functions import KeckDEIMOS_get_spec
 from plot_functions import create_figures
+from herschel_functions import Herschel_get_spec
 ```
 
 ## 1. Define the sample
@@ -199,7 +201,7 @@ This archive includes spectra taken by
  
  &bull; Spitzer/IRS
  
- &bull; Herschel (not implemented, yet)
+
 
 
 ```python
@@ -231,7 +233,19 @@ df_spec_HST = HST_get_spec(sample_table , search_radius_arcsec = 0.5, datadir = 
 df_spec.append(df_spec_HST)
 ```
 
-### 2.3 SDSS Archive
+### 2.3 ESA Archive
+
+
+```python
+# Herschel PACS & SPIRE from ESA TAP using astroquery
+
+herschel_radius = 1.1  
+herschel_download_directory = 'data/herschel'
+df_spec_herschel =  Herschel_get_spec(sample_table, herschel_radius, herschel_download_directory, delete_tarfiles = True)
+df_spec.append(df_spec_herschel)
+```
+
+### 2.4 SDSS Archive
 
 This includes SDSS spectra.
 
@@ -242,7 +256,7 @@ df_spec_SDSS = SDSS_get_spec(sample_table , search_radius_arcsec=5)
 df_spec.append(df_spec_SDSS)
 ```
 
-### 2.4 DESI Archive
+### 2.5 DESI Archive
 
 This includes DESI spectra. Here, we use the `SPARCL` query.
 
